@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>run</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04产品版本" transform="translate(-410.000000, -92.000000)">
+            <g id="Group" transform="translate(70.000000, 60.000000)">
+                <g id="run" transform="translate(340.000000, 32.000000)">
+                    <path d="M5,0 C2.24291667,0 0,2.24291667 0,5 C0,7.75708333 2.24291667,10 5,10 C7.75708333,10 10,7.75708333 10,5 C10,2.24291667 7.75708333,0 5,0 L5,0 Z" id="Shape" fill="#27C24C"></path>
+                    <path d="M6.89791667,5.34666667 L4.39791667,7.01333333 C4.32833333,7.05958333 4.2475,7.08333333 4.16666667,7.08333333 C4.09916667,7.08333333 4.03166667,7.06708333 3.97,7.03416667 C3.83458333,6.96166667 3.75,6.82041667 3.75,6.66666667 L3.75,3.33333333 C3.75,3.17958333 3.83458333,3.03833333 3.97,2.96583333 C4.10541667,2.89375 4.27,2.90125 4.3975,2.98666667 L6.8975,4.65333333 C7.01375,4.73083333 7.08333333,4.86083333 7.08333333,5 C7.08333333,5.13916667 7.01375,5.26916667 6.89791667,5.34666667 L6.89791667,5.34666667 Z" id="Path" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

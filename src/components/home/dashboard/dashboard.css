@@ -1,0 +1,19 @@
+.dashboard {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  padding: 30px;
+  background-color: rgb(235, 240, 240);
+}
+
+.dashboard .ant-row {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 20px;
+}
+
+.dashboard .ant-row > div {
+  padding: 0 8px;
+}

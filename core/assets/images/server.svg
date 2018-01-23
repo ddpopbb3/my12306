@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="70px" viewBox="0 0 200 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="B1主页-1.2-Copy-3" transform="translate(-587.000000, -491.000000)">
+            <g id="Group-14" transform="translate(505.000000, 135.000000)">
+                <g id="Group-12" transform="translate(4.000000, 356.000000)">
+                    <g id="Group-2" transform="translate(78.000000, 0.000000)">
+                        <rect id="Rectangle-609" fill="#FFFFFF" x="0" y="0" width="200" height="70"></rect>
+                        <path d="M78,34 L122,34" id="Line" stroke="#9B9B9B" stroke-linecap="square"></path>
+                        <g id="PRIMARY" transform="translate(10.000000, 10.000000)">
+                            <rect id="Rectangle-111" fill="#7DA5E8" x="7.10542736e-14" y="0" width="68" height="50" rx="4"></rect>
+                            <text id="Server" font-family="FZLTZHK--GBK1-0, Lantinghei SC" font-size="12" font-weight="500" fill="#FFFFFF">
+                                <tspan x="12.671875" y="29">Server</tspan>
+                            </text>
+                        </g>
+                        <g id="PRIMARY" transform="translate(122.000000, 10.000000)">
+                            <rect id="Rectangle-111" fill="#BCADEE" x="7.10542736e-14" y="0" width="68" height="50" rx="4"></rect>
+                            <text id="DB" font-family="FZLTZHK--GBK1-0, Lantinghei SC" font-size="12" font-weight="500" fill="#FFFFFF">
+                                <tspan x="24.3203125" y="29">DB</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

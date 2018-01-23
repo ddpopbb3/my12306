@@ -1,0 +1,123 @@
+<div style="width:100%; clear:both;">
+    <div id="js-emp-edit-form" class="nui-form">
+        <input class="nui-hidden" name="passengerId" />
+        <input class="nui-hidden" name="userId" />
+        <table style="width: 95%;">
+            <tr>
+                <td align="right" style="width: 15%">姓名：</td>
+                <td style="width: 35%;"><input class="nui-textbox" name="name" style="width: 100%;" required="true" vtype="label;rangeLength:1,10" /></td>
+                <td align="right">性别：</td>
+			<td>
+			    <input name="gender" class="nui-combobox" style="width: 100%;"  url="/static/data/genders.txt"   valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+			</td>
+            <tr>
+				<td align="right">证件类型：</td>
+				<td>
+			    <input name="idtype" class="nui-combobox" url="/static/data/idType.txt"  style="width: 100%;"  valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+			</td>
+                <td align="right">证件号码：</td>
+                <td><input id="idnum" name="idnum" style="width: 100%;" class="nui-textbox" vtype="maxLength:18" /></td>
+            </tr>
+            <tr>
+                <td align="right">旅客类型：</td>
+                <td>
+                    <input name="etype"  style="width: 100%;" class="nui-combobox" url="/static/data/tickerType.txt"   valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+                </td>
+                <td align="right">手机号码：</td>
+                <td><input id="tel" name="tel" style="width: 100%;" class="nui-textbox" vtype="int;rangeLength:0,15" /></td>
+            </tr>
+            <tr>
+            <td align="right">邮箱：</td>
+                <td><input id="oemail" name="oemail" style="width: 100%;" class="nui-textbox" vtype="email;rangeLength:5,64;" /></td>
+                <td align="right">邮编：</td>
+                <td><input id="ozipcode" name="ozipcode" style="width: 100%;" class="nui-textbox" vtype="int;rangeLength:0,6" /></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="modal-footer">
+    <a class="nui-button" onclick="cancel()">取消</a>
+    <a class="nui-button nui-button-primary" onclick="save()">保存</a>
+</div>
+<script type="text/javascript" scope="page">
+    nui.parse();
+    var form = new nui.Form("#js-emp-edit-form");
+    function init(data, nuiComp) {
+        form.setData(data.employee);
+        var parentOrg = data.employee.orgOrganization;
+        nuiWin = nuiComp;
+    }
+
+    function save() {
+        //校验
+        form.validate();
+        if (!form.isValid()) {
+            return;
+        }
+
+        var o = form.getData();
+        o.userId= window.localStorage.userId;
+        var json = nui.encode(o);
+        var id = o.passengerId
+        nui.mask({
+            el: document.body,
+            cls: 'nui-mask-loading',
+            html: '执行中...'
+        });
+        nui.ajax({
+            url: "/passenger/update/"+id,
+            type: 'PUT',
+            data: json,
+            cache: false,
+            contentType: 'application/json',
+            success: function(text) {
+                if(text == true){
+                	 nui.showTips({
+                         content: "修改成功！",
+                         state: "success",
+                         x: "center",
+                         y: "center"
+                     });
+                	 setTimeout(function() {
+ 			            window.location.assign(location.origin+"/admin/platformpassenger");
+ 					}, 200);
+                    }else{
+                    	nui.showTips({
+    						content : "修改失败",
+    						state : "failure",
+    						x : "center",
+    						y : "center"
+    					});
+                        }
+            },
+            complete: function() {
+                nui.unmask(document.body);
+            },
+            error: function(jqXHR) {
+                if (jqXHR.responseJSON.errorCode === "DEVOPS_UC_10035") {
+                    nui.handleAjaxError(jqXHR);
+                } else if (jqXHR.responseJSON.errorCode === "DEVOPS_UC_10005") {
+                    nui.handleAjaxError(jqXHR);
+                } else {
+                    nui.handleAjaxError(jqXHR, PM.operation.organization["UPDATE_EMPLOYEE"]);
+                }
+            }
+        });
+
+    }
+
+    function cancel() {
+        nuiWin.close("cancel");
+    }
+
+    function onEnddateValidation(e) {
+        var o = form.getData();
+        var org = o.user || {};
+        if (org.enddate && org.startdate && org.enddate <= org.startdate) {
+            e.errorText = "失效日期必须大于生效日期";
+            e.isValid = false;
+        } else {
+            e.errorText = "";
+        }
+    }
+</script>

@@ -1,0 +1,32 @@
+{
+  "options": [
+    {
+      "id": "javascript",
+      "text": "JavaScript"
+    },
+    {
+      "id": "html",
+      "text": "HTML"
+    },
+    {
+      "id": "css",
+      "text": "CSS"
+    },
+    {
+      "id": "java",
+      "text": "Java"
+    },
+    {
+      "id": "go",
+      "text": "Go"
+    },
+    {
+      "id": "sql",
+      "text": "SQL"
+    },
+    {
+      "id": "typescript",
+      "text": "TypeScript"
+    }
+  ]
+}

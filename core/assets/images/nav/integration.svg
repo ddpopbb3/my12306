@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Integration</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1" transform="translate(-382.000000, -17291.000000)" fill="#A6AAB2">
+            <g id="Group-32" transform="translate(313.000000, 16943.000000)">
+                <g id="Group-26" transform="translate(0.000000, 345.000000)">
+                    <g id="Integration" transform="translate(69.000000, 3.000000)">
+                        <path d="M12.1142857,3.2 L3.88571429,3.2 C3.50651429,3.2 3.2,3.5072 3.2,3.88571429 L3.2,12.1142857 C3.2,12.4928 3.50651429,12.8 3.88571429,12.8 L12.1142857,12.8 C12.4934857,12.8 12.8,12.4928 12.8,12.1142857 L12.8,3.88571429 C12.8,3.5072 12.4934857,3.2 12.1142857,3.2 L12.1142857,3.2 Z" id="Shape"></path>
+                        <rect id="Rectangle-605" x="3.2" y="0" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="3.2" y="13.8666667" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="5.33333333" y="0" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="5.33333333" y="13.8666667" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="7.46666667" y="0" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="7.46666667" y="13.8666667" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-615" x="0" y="3.2" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="0" y="5.33333333" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="0" y="11.7333333" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="0" y="9.6" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="0" y="7.46666667" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="13.8666667" y="3.2" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="13.8666667" y="5.33333333" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="13.8666667" y="11.7333333" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="13.8666667" y="9.6" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-615" x="13.8666667" y="7.46666667" width="2.13333333" height="1.06666667"></rect>
+                        <rect id="Rectangle-605" x="9.6" y="0" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="9.6" y="13.8666667" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="11.7333333" y="0" width="1.06666667" height="2.13333333"></rect>
+                        <rect id="Rectangle-605" x="11.7333333" y="13.8666667" width="1.06666667" height="2.13333333"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

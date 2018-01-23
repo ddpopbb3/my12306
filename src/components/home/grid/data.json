@@ -1,0 +1,369 @@
+{
+  "results": [{
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "villads",
+      "last": "johansen"
+    },
+    "location": {
+      "street": "6223 venusvej",
+      "city": "viby sj.",
+      "state": "danmark",
+      "postcode": 42263
+    },
+    "email": "villads.johansen@example.com",
+    "login": {
+      "username": "tinylion167",
+      "password": "vivid",
+      "salt": "7D6p2G5f",
+      "md5": "2bcb23f6dd19bea36ba27f5c46e7b11a",
+      "sha1": "ac2acfbd4357b625ec961b9d86431ed95b621af9",
+      "sha256": "35674c658aeded76b8ebfeb46cba20140c35e70372d3761ef1bd484104ebd307"
+    },
+    "dob": "1948-02-07 22:57:33",
+    "registered": "2010-10-19 16:31:26",
+    "phone": "59661902",
+    "cell": "30848921",
+    "id": {
+      "name": "CPR",
+      "value": "103549-5475"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/23.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/23.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
+    },
+    "nat": "DK"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "mrs",
+      "first": "rachél",
+      "last": "diepenbroek"
+    },
+    "location": {
+      "street": "4076 herenstraat",
+      "city": "utrechtse heuvelrug",
+      "state": "gelderland",
+      "postcode": 99693
+    },
+    "email": "rachél.diepenbroek@example.com",
+    "login": {
+      "username": "silverelephant508",
+      "password": "pumpkin",
+      "salt": "y6rODtZT",
+      "md5": "871995d37240902de8314a15152b0710",
+      "sha1": "c8aecee9cd03fd202eeb329874746427bdf00593",
+      "sha256": "50c2cbd5e5918c0a6ee0d66a7d082bcdd72d404df40b38c50f71c589f01fae19"
+    },
+    "dob": "1989-08-24 10:22:54",
+    "registered": "2002-07-18 12:37:52",
+    "phone": "(188)-602-2496",
+    "cell": "(851)-400-6472",
+    "id": {
+      "name": "BSN",
+      "value": "98268401"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/5.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+    },
+    "nat": "NL"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "alpoim",
+      "last": "melo"
+    },
+    "location": {
+      "street": "2545 rua vinte de setembro",
+      "city": "belford roxo",
+      "state": "alagoas",
+      "postcode": 87245
+    },
+    "email": "alpoim.melo@example.com",
+    "login": {
+      "username": "heavymouse823",
+      "password": "deskjet",
+      "salt": "74ArH8rr",
+      "md5": "3c9b02663d814d5870cc98dbdcb97c43",
+      "sha1": "de88918f9d96cffd6888114c4067dc0a73398801",
+      "sha256": "b7f5b5362b83414fc1945aa4d54d993d3b81e32dc7f2807fce0ac447db767f58"
+    },
+    "dob": "1951-10-07 07:17:12",
+    "registered": "2002-09-05 11:01:14",
+    "phone": "(16) 3968-4241",
+    "cell": "(60) 5682-7409",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/91.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg"
+    },
+    "nat": "BR"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "jack",
+      "last": "patel"
+    },
+    "location": {
+      "street": "2661 dalhousie ave",
+      "city": "victoria",
+      "state": "québec",
+      "postcode": 39999
+    },
+    "email": "jack.patel@example.com",
+    "login": {
+      "username": "smalldog742",
+      "password": "vvvvv",
+      "salt": "yFTAq9VE",
+      "md5": "40e97d26f9f7af473b39dde1373c75b3",
+      "sha1": "db74285eb78ce6f9bec764369fb5edbf3a40e5b9",
+      "sha256": "5c4123a9c689fee5e9a0126f54d7824385abc32eef2d86f06bd487b179d78968"
+    },
+    "dob": "1989-09-11 12:49:31",
+    "registered": "2011-02-07 04:54:55",
+    "phone": "185-502-4018",
+    "cell": "768-531-9385",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/25.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/25.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+    },
+    "nat": "CA"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "luke",
+      "last": "white"
+    },
+    "location": {
+      "street": "6819 domain road",
+      "city": "napier",
+      "state": "wellington",
+      "postcode": 26570
+    },
+    "email": "luke.white@example.com",
+    "login": {
+      "username": "orangebear630",
+      "password": "tommy1",
+      "salt": "s9C9hz8i",
+      "md5": "49ee64636d3cbc342aa300e621ca016e",
+      "sha1": "c45ecf85a042ae9f42a45dc755fa5abc6471d21b",
+      "sha256": "c0012301f19abc16a9457a77c2735fe2e7ac669be3e54275f7e5f011a13b3d5a"
+    },
+    "dob": "1964-07-30 17:57:03",
+    "registered": "2016-05-06 03:38:24",
+    "phone": "(341)-482-2131",
+    "cell": "(624)-354-9211",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/46.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
+    },
+    "nat": "NZ"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "mrs",
+      "first": "anna",
+      "last": "pedersen"
+    },
+    "location": {
+      "street": "8007 neptunvej",
+      "city": "overby lyng",
+      "state": "danmark",
+      "postcode": 10315
+    },
+    "email": "anna.pedersen@example.com",
+    "login": {
+      "username": "crazypeacock960",
+      "password": "chicken",
+      "salt": "LAbxQpOZ",
+      "md5": "4a187fc8d0c40c6c2132a96589b203d9",
+      "sha1": "0c6046394911006f08d7a2bbac98f797c8a0099a",
+      "sha256": "e96d92c2075879329e6a19b2cd6afe5e96665c7f7bccea04ed07077d7c8fd859"
+    },
+    "dob": "1971-08-08 01:36:26",
+    "registered": "2015-03-07 12:08:20",
+    "phone": "98478740",
+    "cell": "81901499",
+    "id": {
+      "name": "CPR",
+      "value": "616119-1911"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/22.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/22.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+    },
+    "nat": "DK"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "matéo",
+      "last": "rousseau"
+    },
+    "location": {
+      "street": "4193 rue louis-garrand",
+      "city": "brest",
+      "state": "deux-sèvres",
+      "postcode": 29916
+    },
+    "email": "matéo.rousseau@example.com",
+    "login": {
+      "username": "whiteostrich110",
+      "password": "smile1",
+      "salt": "JhW8KlPk",
+      "md5": "1f33e6a45b3b9053295015972f8030b9",
+      "sha1": "612bdff724e0011b318145d5f5f2a039999461b0",
+      "sha256": "5f3a6bac5d761c9f790aa991d98884f25130e9e746c45b2f36fa7d83b1c86ca3"
+    },
+    "dob": "1977-02-21 20:18:40",
+    "registered": "2015-06-19 03:52:06",
+    "phone": "02-71-83-41-85",
+    "cell": "06-78-99-05-59",
+    "id": {
+      "name": "INSEE",
+      "value": "177178332408 31"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/47.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/47.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/47.jpg"
+    },
+    "nat": "FR"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "riley",
+      "last": "clarke"
+    },
+    "location": {
+      "street": "8956 moray place",
+      "city": "new plymouth",
+      "state": "wellington",
+      "postcode": 20107
+    },
+    "email": "riley.clarke@example.com",
+    "login": {
+      "username": "crazybird618",
+      "password": "boots",
+      "salt": "WlGMqN7I",
+      "md5": "5d7c908d95d2b2fe92a699de6e927f79",
+      "sha1": "a758c1bd78499a2a76ace9512f1cfd4322d55a3d",
+      "sha256": "cc5e798b6d0a1bc48b3ee43a5bb0c3ed57b75ccb97a716cb074713069134cbb4"
+    },
+    "dob": "1973-07-27 23:42:20",
+    "registered": "2006-04-21 06:04:09",
+    "phone": "(122)-977-7213",
+    "cell": "(035)-473-3003",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/39.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/39.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/39.jpg"
+    },
+    "nat": "NZ"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "mrs",
+      "first": "annabelle",
+      "last": "williams"
+    },
+    "location": {
+      "street": "5606 queen st",
+      "city": "beaumont",
+      "state": "alberta",
+      "postcode": 83913
+    },
+    "email": "annabelle.williams@example.com",
+    "login": {
+      "username": "browndog971",
+      "password": "mouse1",
+      "salt": "Y0uEKxT6",
+      "md5": "6923e45eef898af5c0a81d2cda58f112",
+      "sha1": "af7402bf013f885eae26973407c4684a5257c072",
+      "sha256": "7ca71a4f4677fa30590171a8243e560f9642fac5c1eddcfc8f1e2c675fb7e2ca"
+    },
+    "dob": "1972-07-04 00:28:12",
+    "registered": "2005-06-16 05:37:54",
+    "phone": "085-392-5017",
+    "cell": "550-580-0874",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/10.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/10.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/10.jpg"
+    },
+    "nat": "CA"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "mrs",
+      "first": "molly",
+      "last": "knight"
+    },
+    "location": {
+      "street": "5128 park road",
+      "city": "wells",
+      "state": "northumberland",
+      "postcode": "HD8N 6LP"
+    },
+    "email": "molly.knight@example.com",
+    "login": {
+      "username": "greendog509",
+      "password": "inferno",
+      "salt": "LvENS68D",
+      "md5": "93fe3d5834f367de6ffe40e30cb5d0d6",
+      "sha1": "c3365ca5ffa61e7da97211fdbda5408be6bd3bc7",
+      "sha256": "6988bf5b3c22038e01ab534fa099ab9c567cfc88e41ef6da2ff16f434a04a766"
+    },
+    "dob": "1980-07-08 16:55:14",
+    "registered": "2003-10-01 19:39:22",
+    "phone": "0112360 419 1925",
+    "cell": "0777-538-466",
+    "id": {
+      "name": "NINO",
+      "value": "RW 92 58 70 O"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/8.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/8.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/8.jpg"
+    },
+    "nat": "GB"
+  }],
+  "info": {
+    "seed": "fb9494fd0c74c855",
+    "results": 10,
+    "page": 1,
+    "version": "1.1"
+  }
+}

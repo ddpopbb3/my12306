@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows-24px-outline-1_window-zoom-in</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="41部署装配列表" transform="translate(-1175.000000, -273.000000)">
+            <g id="Product-list" transform="translate(20.000000, 132.000000)">
+                <g id="Group-2" transform="translate(0.000000, 122.000000)">
+                    <g id="arrows-24px-outline-1_window-zoom-in" transform="translate(1156.000000, 20.000000)">
+                        <g id="Group">
+                            <rect id="Rectangle-path" stroke="#46535A" stroke-width="2" x="0" y="0" width="22" height="20"></rect>
+                            <path d="M14.901,15.853 L12.446,15.853 L10.915,13.398 L9.401,15.853 L7,15.853 L9.605,11.835 L7.156,8 L9.509,8 L10.927,10.428 L12.291,8 L14.713,8 L12.226,12.001 L14.901,15.853 L14.901,15.853 Z" id="Shape" fill="#46535A"></path>
+                            <path d="M17,16 C17.6111111,14.8666667 18,13.4666667 18,12 C18,10.5333333 17.6111111,9.13333333 17,8" id="Shape" stroke="#46535A" stroke-width="2"></path>
+                            <path d="M4,16 C4.61111111,14.8666667 5,13.4666667 5,12 C5,10.5333333 4.61111111,9.13333333 4,8" id="Shape" stroke="#46535A" stroke-width="2" transform="translate(4.500000, 12.000000) scale(-1, 1) translate(-4.500000, -12.000000) "></path>
+                            <path d="M0,4 L22,4" id="Shape" stroke="#46535A" stroke-width="2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

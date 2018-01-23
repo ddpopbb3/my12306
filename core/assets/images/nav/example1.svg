@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ui-16px-1_send</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" filter="url(#filter-1)">
+        <g id="Artboard-1" transform="translate(-398.000000, -1582.000000)" fill="#A6AAB2">
+            <g id="布局" transform="translate(342.000000, 315.000000)">
+                <g id="Group-2" transform="translate(50.000000, 1091.000000)">
+                    <g id="Toplist" transform="translate(0.000000, 40.000000)">
+                        <g id="ui-16px-1_send" transform="translate(10.000000, 140.000000)">
+                            <path d="M3.17647059,8.4 L3.17647059,12.6875 C3.17647059,13.3 3.88235294,13.5625 4.32352941,13.125 L6.35294118,10.7625 L10.5,13.825 C10.8529412,14.0875 11.3823529,13.9125 11.4705882,13.475 L14.1176471,0.7875 C14.2058824,0.2625 13.7647059,-0.0875 13.2352941,0.0875 L0.441176471,5.1625 C1.44183276e-13,5.3375 -0.0882352941,5.95 0.264705882,6.3 L1.67647059,7.35 L5.73529412,5.425 C6.08823529,5.25 6.35294118,5.6875 6.08823529,5.8625 L3.17647059,8.4 L3.17647059,8.4 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

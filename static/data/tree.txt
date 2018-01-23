@@ -1,0 +1,35 @@
+﻿{trees:
+[
+	{id: "base", text: "Base",iconField:"icon-tree-org",
+		children: [
+			{id: "ajax", text: "Ajax",iconField:"icon-tree-dep"},
+			{id: "json", text: "JSON",iconField:"icon-tree-dep"},
+			{id: "date", text: "Date",iconField:"icon-tree-dep"},
+			{id: "control", text: "Control",iconField:"icon-tree-dep"},
+			{id: "messagebox", text: "MessageBox",iconField:"icon-tree-dep"},
+			{id: "window", text: "Window",iconField:"icon-tree-dep",
+				children: [
+					{id: "button", text: "Button",iconField:"icon-tree-people"},
+					{id: "listbox", text: "ListBox",iconField:"icon-tree-people"}
+				]
+			}
+		]
+	},
+	{id: "forms", text: "Forms", iconField:"icon-tree-org",
+		children: [
+			{id: "button", text: "Button",iconField:"icon-tree-dep"},
+			{id: "listbox", text: "ListBox",iconField:"icon-tree-dep"},
+			{id: "checkboxlist", text: "CheckBoxList",iconField:"icon-tree-dep"},
+			{id: "radiolist", text: "RadioList",iconField:"icon-tree-dep"}
+		]
+	},
+	{id: "lists", text: "Lists", iconField:"icon-tree-org",
+		children: [
+			{id: "datagrid", text: "DataGrid",iconField:"icon-tree-dep"},			
+			{id: "tree", text: "Tree",iconField:"icon-tree-dep"},
+			{id: "treegrid", text: "TreeGrid",iconField:"icon-tree-dep"}
+		]
+	}
+	
+]
+}

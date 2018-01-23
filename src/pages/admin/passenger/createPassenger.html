@@ -1,0 +1,104 @@
+<div style="width:100%; clear:both;">
+    <div id="js-emp-add-form" class="nui-form">
+        <table style="width: 95%;">
+            <tr>
+                <td align="right" style="width: 15%">姓名：</td>
+                <td style="width: 35%;"><input class="nui-textbox" name="name" style="width: 100%;" required="true" vtype="label;rangeLength:1,10" /></td>
+                <td align="right">性别：</td>
+			<td>	
+			    <input name="gender" class="nui-combobox" url="/static/data/genders.txt"  style="width: 100%;"
+                       valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+			</td>
+            <tr>
+				<td align="right">证件类型：</td>
+				<td>	
+			    <input name="idtype" class="nui-combobox" url="/static/data/idType.txt" style="width: 100%;"
+                       valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+			</td>
+                <td align="right">证件号码：</td>
+                <td><input id="idnum" name="idnum" style="width: 100%;" class="nui-textbox" required="true" vtype="maxLength:18" style="width: 100%;" /></td>
+            </tr>
+            <tr>
+                <td align="right">旅客类型：</td>
+                <td>
+                    <input name="etype" class="nui-combobox" url="/static/data/tickerType.txt"  required="true"
+                           style="width: 100%;" valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+                </td>
+                <td align="right">手机号码：</td>
+                <td><input id="tel" name="tel" style="width: 100%;" class="nui-textbox" vtype="int;rangeLength:0,15" /></td>
+            </tr>
+            <tr>
+            <td align="right">邮箱：</td>
+                <td><input name="email" style="width: 100%;" class="nui-textbox" vtype="email;rangeLength:5,64;" /></td>
+                <td align="right">邮编：</td>
+                <td><input  name="postcode" style="width: 100%;" class="nui-textbox" vtype="int;rangeLength:0,6" /></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="modal-footer">
+    <a class="nui-button" onclick="cancel()">取消</a>
+    <a class="nui-button nui-button-primary" onclick="add()">添加</a>
+</div>
+
+<script type="text/javascript" scope="page">
+    nui.parse();
+    var nuiWin;
+    var addEmpForm = new nui.Form("#js-emp-add-form");
+
+    function init(data, nuiComp) {
+        nuiWin = nuiComp;
+    }
+
+    function add() {
+        //校验
+        addEmpForm.validate();
+        if (!addEmpForm.isValid()) {
+             return;
+         }
+        //检查机制
+        var o = addEmpForm.getData();
+        o.userId= window.localStorage.userId;
+        o.delFlag= '0';
+        var json = nui.encode(o);
+//        nui.mask({
+//            el: document.body,
+//            cls: 'nui-mask-loading',
+//            html: '执行中...'
+//        });
+        nui.ajax({
+			url : "/passenger/add",
+			method : "post",
+			data : json,
+			contentType : 'application/json',
+			success : function(text) {
+				if (text == true) {
+					nui.showTips({
+						content : "增加成功",
+						state : "success",
+						x : "center",
+						y : "center"
+					});
+					setTimeout(function() {
+					window.location.assign(location.origin+"/admin/platformpassenger");
+					}, 60);
+				} else {
+					nui.showTips({
+						content : "增加失败",
+						state : "failure",
+						x : "center",
+						y : "center"
+					});
+				}
+
+			},
+			complete : function() {
+				nui.unmask(document.body);
+			},
+		});
+    }
+
+    function cancel() {
+        nuiWin.close("cancel");
+    }
+</script>

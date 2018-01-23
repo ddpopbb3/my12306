@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" filter="url(#filter-1)">
+        <g id="Artboard-1" transform="translate(-398.000000, -1547.000000)" fill="#A6AAB2">
+            <g id="布局" transform="translate(342.000000, 315.000000)">
+                <g id="Group-2" transform="translate(50.000000, 1091.000000)">
+                    <g id="Toplist" transform="translate(0.000000, 40.000000)">
+                        <g id="Group" transform="translate(10.000000, 105.000000)">
+                            <path d="M14.0625,0.9375 L11.25,0.9375 L11.25,2.8125 L13.125,2.8125 L13.125,13.125 L1.875,13.125 L1.875,2.8125 L3.75,2.8125 L3.75,0.9375 L0.9375,0.9375 C0.375,0.9375 0,1.3125 0,1.875 L0,14.0625 C0,14.625 0.375,15 0.9375,15 L14.0625,15 C14.625,15 15,14.625 15,14.0625 L15,1.875 C15,1.3125 14.625,0.9375 14.0625,0.9375 L14.0625,0.9375 Z" id="Shape"></path>
+                            <rect id="Rectangle-path" x="4.6875" y="0" width="5.625" height="3.75"></rect>
+                            <rect id="Rectangle-path" x="3.75" y="5.625" width="7.5" height="1.875"></rect>
+                            <rect id="Rectangle-path" x="3.75" y="9.375" width="7.5" height="1.875"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

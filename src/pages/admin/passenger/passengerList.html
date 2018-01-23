@@ -1,0 +1,16 @@
+<div class="nui-toolbar-right">
+    <a class="nui-button nui-button-primary" onclick="add()" style="float: right; margin-left: 10px; border: 0px #fff;" >新增</a>
+</div>
+
+<div id="js-emp-datagrid" class="nui-datagrid" dataField="data" sizeList="[10,20,50,100]" showFilterRow="true" >
+    <div property="columns">
+        <div field="name" width="120" headerAlign="left" align="left">姓名</div>
+        <div field="idtype" width="120" headerAlign="left" align="left">证件类型</div>
+        <div field="idnum" width="120" headerAlign="left" align="left">证件号码</div>
+        <div field="tel" width="120" headerAlign="left" align="left">手机</div>
+        <div field="etype" width="120" headerAlign="left" align="left" >旅客类型</div>
+        <div renderer="onOperationRenderer" width="120">操作</div>
+    </div>
+</div>
+</div>
+<script src="/pages/admin/passenger/passengerList.js" scope="page"></script>

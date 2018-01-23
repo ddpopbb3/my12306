@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows-24px-glyph-2_hit-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" filter="url(#filter-1)">
+        <g id="Artboard-1" transform="translate(-528.000000, -2102.000000)" fill="#C0C0C0">
+            <g id="布局" transform="translate(342.000000, 315.000000)">
+                <g id="Group-2" transform="translate(50.000000, 1091.000000)">
+                    <g id="Toplist" transform="translate(0.000000, 40.000000)">
+                        <g id="arrows-24px-glyph-2_hit-right" transform="translate(145.000000, 665.000000) scale(-1, 1) translate(-145.000000, -665.000000) translate(140.000000, 660.000000)">
+                            <g id="Group">
+                                <path d="M9.58333333,0 C9.81333333,0 10,0.186666667 10,0.416666667 L10,9.58333333 C10,9.81333333 9.81333333,10 9.58333333,10 C9.35333333,10 9.16666667,9.81333333 9.16666667,9.58333333 L9.16666667,0.416666667 C9.16666667,0.186666667 9.35333333,0 9.58333333,0 L9.58333333,0 Z" id="Shape"></path>
+                                <path d="M3.75,7.91666667 L7.5,5 L3.75,2.08333333 L3.75,4.58333333 L0.416666667,4.58333333 C0.18625,4.58333333 0,4.76958333 0,5 C0,5.23041667 0.18625,5.41666667 0.416666667,5.41666667 L3.75,5.41666667 L3.75,7.91666667 L3.75,7.91666667 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

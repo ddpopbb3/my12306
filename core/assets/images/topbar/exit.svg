@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>exit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="27构建定义浏览测试" transform="translate(-1245.000000, -12.000000)" fill="#FFFFFF">
+            <g id="Topbar">
+                <g id="exit" transform="translate(1245.000000, 12.000000)">
+                    <rect id="Rectangle-path" x="6" y="0" width="2" height="6"></rect>
+                    <path d="M11.7,3.8 C11.3,3.4 10.7,3.5 10.3,3.9 C9.9,4.3 10,4.9 10.4,5.3 C11.4,6.2 12,7.6 12,9 C12,11.8 9.8,14 7,14 C4.2,14 2,11.8 2,9 C2,7.6 2.6,6.2 3.7,5.3 C4.1,4.9 4.1,4.3 3.8,3.9 C3.4,3.5 2.8,3.5 2.4,3.8 C0.9,5.1 0,7 0,9 C0,12.9 3.1,16 7,16 C10.9,16 14,12.9 14,9 C14,7 13.2,5.1 11.7,3.8 L11.7,3.8 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="14px" viewBox="0 0 19 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Caret</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" filter="url(#filter-1)">
+        <g id="Artboard-1" transform="translate(-650.000000, -1420.000000)" fill="#FFFFFF">
+            <g id="布局" transform="translate(439.000000, 315.000000)">
+                <g id="Group-2" transform="translate(49.891775, 1091.000000)">
+                    <g id="Topbar" transform="translate(0.000000, 0.000000)">
+                        <g id="Group-8" transform="translate(133.709957, 10.000000)">
+                            <path d="M41.9090909,8.66666667 C41.9090909,8.84711111 41.8473498,9.00333333 41.7238677,9.13533333 L37.3583374,13.802 C37.2348552,13.934 37.0887139,14 36.9199134,14 C36.7511129,14 36.6049716,13.934 36.4814894,13.802 L32.1159591,9.13533333 C31.992477,9.00333333 31.9307359,8.84711111 31.9307359,8.66666667 C31.9307359,8.48622222 31.992477,8.33 32.1159591,8.198 C32.2394413,8.066 32.3855826,8 32.5543831,8 L41.2854437,8 C41.4542442,8 41.6003856,8.066 41.7238677,8.198 C41.8473498,8.33 41.9090909,8.48622222 41.9090909,8.66666667 L41.9090909,8.66666667 Z" id="Caret"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

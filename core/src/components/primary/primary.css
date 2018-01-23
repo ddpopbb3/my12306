@@ -1,0 +1,205 @@
+.primary-topbar.navbar {
+  position: fixed;
+  z-index: 1001;
+  width: 100%;
+  height: 32px;
+  margin-bottom: 0px;
+  min-height: 32px;
+  background-color: #323B45 !important;
+  border-style: none;
+  border-radius: 0px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.primary-topbar .navbar-toggle {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  padding: 4px 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.primary-topbar .navbar-header {
+  margin-left: 0px;
+}
+
+.primary-topbar .navbar-collapse {
+  background-color: #323B45;
+}
+
+.navbar-default .navbar-brand {
+  color: white !important;
+  line-height: 17px;
+}
+
+.navbar-header {
+  width: auto;
+}
+
+.breadcrumb>li+li:before {
+  content: ">";
+}
+
+.primary-content {
+  position: fixed;
+  top: 62px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: white;
+  overflow-y: auto;
+  transition: all 0.3s linear;
+}
+
+.primary-without-navbar .primary-content {
+  top: 32px;
+}
+
+.secondary-content {
+  position: fixed;
+  top: 94px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  overflow-y: auto;
+}
+
+.primary-content > div,
+.secondary-content > div {
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.primary-content > div:before,
+.secondary-content > div:before {
+  display: table;
+  content: "";
+  height: 1px;
+}
+
+.primary-topbar-navs .navbar-text {
+  margin: 8px 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.primary-topbar .breadcrumb {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding: 5px;
+  background-color: #323B45;
+}
+
+.primary-topbar .breadcrumb a,
+.primary-topbar .breadcrumb li {
+  color: white;
+}
+
+.primary-layout-tree .primary-topbar {
+  height: 40px;
+  background-color: #005BAC !important;
+}
+
+.primary-layout-tree .navbar-collapse {
+  background-color: #005BAC;
+}
+
+.primary-layout-tree .primary-topbar .breadcrumb {
+  background-color: #005BAC;
+}
+
+.primary-topbar-brand {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 0px;
+  cursor: pointer;
+}
+
+.primary-topbar-list {
+  float: right;
+  margin-left: 30px;
+}
+
+.primary-topbar-list .dropdown {
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  padding-right: 0px;
+}
+
+.primary-topbar-list .dropdown input {
+  width: 120px;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 4px;
+  color: white;
+  border-style: none;
+  background-color: #005BAC;
+  background-image: url(/core/assets/images/nav/expand_menu.svg);
+  background-repeat: no-repeat;
+  background-position: 80% 56%;
+  cursor: pointer;
+}
+
+.primary-topbar-list .dropdown ul {
+  display: block;
+  transition: transform 0.2s;
+  transform: scale(0);
+  transform-origin: 0px 0px;
+  margin-top: 10px;
+}
+
+.primary-topbar-list .dropdown--focused ul {
+  transform: scale(1);
+}
+
+.primary-topbar-list .dropdown--focused input {
+  background-color: #00519A;
+}
+
+.dropdown-item-more {
+  text-align: right;
+  color: #333;
+}
+
+.dropdown-item-noRecords {
+  padding-left: 10px;
+  color: #333;
+}
+
+.dropdown-item-more:hover,
+.dropdown-item-noRecords:hover {
+  cursor: default;
+}
+
+.dropdown-menu .dropdown-item-more a {
+  display: inline;
+}
+
+.dropdown-menu>li>a:hover {
+  color: white;
+  background-color: #005BAC;
+}
+
+.dropdown-menu .dropdown-item-more a:hover {
+  color: #333;
+  text-decoration: underline;
+  background-color: white;
+}
+
+.primary-topbar-list .dropdown-menu:before {
+  content: url(/core/assets/images/nav/menulist.svg);
+  display: table;
+  position: absolute;
+  top: -15px;
+  left: 10px;
+}

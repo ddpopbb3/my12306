@@ -1,0 +1,199 @@
+<div style="width: 100%; clear: both;">
+	<div id="js-emp-add-form" class="nui-form">
+		<table style="width: 95%;">
+			<tr>
+				<td align="right">用户名：</td>
+				<td><input id="userid" class="nui-textbox" name="uid"
+					required="true" vtype="name;rangeLength:4,32" /></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td align="right">密码：</td>
+				<td><input id="password" class="nui-password" name="pid"
+					required="true" vtype="rangeLength:6,20" /></td>
+			</tr>
+			<tr>
+				<td align="right">姓名：</td>
+				<td><input id="name" class="nui-textbox" name="name"
+					required="true" vtype="label;rangeLength:1,10" /></td>
+			</tr>
+			 <tr>
+				<td align="right">证件类型：</td>
+				<td>	
+			    <input name="idtype" class="nui-combobox" url="/static/data/idType.txt"   valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+			</td>
+			</tr> 
+			<tr>
+				<td align="right">证件号码：</td>
+				<td><input id="idnum" name="idnum" class="nui-textbox"
+					vtype="maxLength:18" /></td>
+			</tr>
+			<tr>
+				<td align="right">邮箱：</td>
+				<td><input id="email" name="email" class="nui-textbox"
+					vtype="email;rangeLength:5,64;" /></td>
+			</tr>
+			<tr>
+				<!-- <td align="right">联系电话：</td>
+                <td><input id="otel" name="otel" style="width: 100%;" class="nui-textbox" vtype="int;rangeLength:0,16" /></td>-->
+				<td align="right">手机号码：</td>
+				<td><input id="tel" name="tel" class="nui-textbox"
+					vtype="int;rangeLength:0,15" /></td>
+			</tr>
+			 <tr>
+				<td align="right">旅客类型：</td>
+				<td>
+				<!--	<select id="eType" name="etype" style="width: 100%;"
+					class="nui-selector">
+						<option value="成人">成人</option>
+						<option value='学生'>学生</option>
+				</select> -->
+ 				<input name="etype" class="nui-combobox" url="/static/data/tickerType.txt"   valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+				</td>
+				<td></td>
+			</tr> 
+			 <tr>
+				<td align="right">性别：</td>
+			<td>	
+			    <input name="gender" class="nui-combobox" url="/static/data/genders.txt"   valueField="id" textField="text" value="cn" showNullItem="true" allowInput="true"/>
+			</td>
+			</tr> 		
+				<td></td>
+				<td><a class="nui-button" onclick="cancel()">取消</a>&nbsp&nbsp&nbsp
+					<a class="nui-button nui-button-primary" onclick="register()">注册</a>
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div></div>
+
+<!-- <script src="uc/org/orgemps/orgUtility.js" scope="page"></script> -->
+<script type="text/javascript" scope="page">
+	nui.parse();
+	var nuiWin;
+
+	//  var treeselect = nui.get("orgid");
+	//  treeselect.load();
+	/* debugger; */
+
+	/* function init(data, nuiComp) {
+
+		nuiWin = nuiComp;
+
+		if (data && data.parentOrgId) {
+			var initData = nui.encode({
+				orgid : data.parentOrgId
+			});
+			form.setData(nui.decode(initData));
+			treeselect.text = data.parentOrgName;
+		}
+	} */
+
+	function register() {
+		var form = new nui.Form("#js-emp-add-form");
+		//校验
+		form.validate();
+		if (!form.isValid()) {
+			return;
+		}
+
+		var o = form.getData();
+		var json = nui.encode(o);
+		nui.mask({
+			el : document.body,
+			cls : 'nui-mask-loading',
+			html : '执行中...'
+		});
+		nui.ajax({
+			url : "/user/register",
+			method : "post",
+			data : json,
+			contentType : 'application/json',
+			success : function(text) {
+				if (text == true) {
+					nui.showTips({
+						content : "注册成功",
+						state : "success",
+						x : "center",
+						y : "center"
+					});
+
+					setTimeout(function() {
+						location.href = location.origin + "/"
+								+ PM.serverContextPath + "login";
+					}, 2000);
+
+				} else {
+					nui.showTips({
+						content : "注册失败",
+						state : "failure",
+						x : "center",
+						y : "center"
+					});
+				}
+
+			},
+			complete : function() {
+				nui.unmask(document.body);
+			},
+		});
+
+		//after registry, show login page
+
+		//校验
+		//        debugger;
+		//        addEmpForm.validate();
+		//        // if (!addEmpForm.isValid()) {
+		//        //     return;
+		//        // }
+		//        //检查机制
+		//        debugger;
+		//        var o = addEmpForm.getData();
+		//        var json = nui.encode(o);
+		//        nui.mask({
+		//            el: document.body,
+		//            cls: 'nui-mask-loading',
+		//            html: '执行中...'
+		//        });
+		//        debugger;
+		//        newdata = o;
+		//        nuiWin.close();
+		//        nui.unmask(document.body);
+		// nui.ajax({
+		//     url: "api/uc/employees",
+		//     type: 'POST',
+		//     data: json,
+		//     cache: false,
+		//     contentType: 'application/json',
+		//     success: function(text) {
+		//         nui.showTips({
+		//             content: "添加成功！",
+		//             state: "success",
+		//             x: "center",
+		//             y: "center"
+		//         });
+		//         nuiWin.close();
+		//     },
+		//     complete: function() {
+		//         nui.unmask(document.body);
+		//     },
+		//     error: function(jqXHR) {
+		//         if (jqXHR.responseJSON.errorCode === "DEVOPS_UC_10035") {
+		//             nui.handleAjaxError(jqXHR);
+		//         } else if (jqXHR.responseJSON.errorCode === "DEVOPS_UC_10005") {
+		//             nui.handleAjaxError(jqXHR);
+		//         } else {
+		//             nui.handleAjaxError(jqXHR, PM.operation.organization["CREATE_EMPLOYEE"]);
+		//         }
+		//     }
+		// });
+
+	}
+
+	function cancel() {
+		location.href = location.origin + "/" + PM.serverContextPath + "admin";
+	}
+</script>

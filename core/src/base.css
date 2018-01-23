@@ -1,0 +1,149 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+body {
+    /*font-family: Times, serif;*/
+    margin: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+label {
+    display: inline;
+    font-weight: normal;
+}
+
+a {
+    cursor: pointer;
+}
+
+.a:link {
+    color: #999;
+}
+
+.mouse-over:hover {
+    cursor: pointer;
+}
+
+.btn-without-outline:active,
+.btn-without-outline:focus,
+.btn-without-outline:focus:active {
+    outline-style: none;
+}
+
+.form-control[disabled] {
+    cursor: auto;
+    background-color: #f9f9f9;
+}
+
+.btn-primary {
+    background-color: #0f94f7;
+    border-color: #0f94f7;
+    /* height:40px;
+    margin-bottom:30px; */
+}
+
+.btn-primary:hover {
+    background-color: #197eca;
+    border-color: #197eca;
+}
+
+.modal-body {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.modal-close {
+    float: right;
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+}
+
+.theplatform-logo {
+    animation: logo 5s 6;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotateY(0deg);
+    }
+    25% {
+        transform: rotateY(180deg);
+    }
+    50% {
+        transform: rotateY(360deg) rotateZ(0deg);
+    }
+    51% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes logo {
+    0% {
+        transform: rotateY(0deg);
+    }
+    25% {
+        transform: rotateY(180deg);
+    }
+    50% {
+        transform: rotateY(360deg) rotateZ(0deg);
+    }
+    51% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+textarea {
+    resize: none
+}
+
+canvas {
+    outline: none;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.h4,
+.h5,
+h4,
+h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.subpage-frame {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}

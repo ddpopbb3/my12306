@@ -1,0 +1,28 @@
+<div property="toolbar" style="padding:5px;padding-left:8px;text-align:left;">
+ <span>出发地:</span>
+ <input id="startCity" name="startCity" dataField="city" class="nui-autocomplete" required="true"  style="width:160px;" onenter="onSearchTicket()"
+        valueField="name" textField="name" value="" text="简体字" url="/pages/admin/ticket/city.json" />
+ <span>目的地:</span>
+ <input id="destCity" name="destCity"  dataField="city" class="nui-autocomplete" required="true"  style="width:160px;" onenter="onSearchTicket()"
+        valueField="name" textField="name" value="" text="简体字" url="/pages/admin/ticket/city.json" />
+ <span>出发日期:</span>
+ <input id="startDate" name="startDate" class="nui-datepicker" value="2017-06-26" />
+ <a class="nui-button" onclick="onSearchTicket()">搜索</a>
+</div>
+
+<div id="js-emp-datagrid" class="nui-datagrid" dataField="data" sizeList="[10,20,50,100]" showFilterRow="true" >
+ <div property="columns">
+  <div field="ticketType.trainCode" width="120" headerAlign="left" align="left">车次</div>
+  <div field="ticketType.startCity" width="120"  headerAlign="left" align="left">出发站</div>
+  <div field="ticketType.destCity" width="120" headerAlign="left" align="left">到达站</div>
+  <div field="ticketType.startTime" width="120" headerAlign="left" align="left">出发时间</div>
+  <div field="ticketType.destTime" width="120" headerAlign="left" align="left">到达时间</div>
+  <div field="ticketType.runningTime" width="120" headerAlign="left" align="left">历时</div>
+  <div field="ticketSale.actualAmount2" width="120" headerAlign="left" align="left">余票</div>
+  <div field="ticketType.seatType" width="120" visible=true headerAlign="left" align="left">席别</div>
+  <div field="ticketType.price" width="120" visible=false headerAlign="left" align="left">价格</div>
+  <div renderer="onOperationRenderer" width="120">备注</div>
+ </div>
+</div>
+
+<script src="/pages/admin/ticket/ticketList.js" scope="page"></script>

@@ -1,0 +1,92 @@
+.login-bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: #f0f3f4;
+}
+
+.loginPage {
+  position: absolute;
+  z-index: 999;
+  margin: auto;
+  width: 300px;
+  left: 50%;
+  top: 50%;
+  margin-top: -200px;
+  margin-left: -150px;
+}
+
+.alert-postion {
+  position: absolute;
+  display: inline-block;
+  left: 300px;
+  top: 0;
+  height: 40px;
+  width: 400px;
+  line-height: 40px;
+  padding-left: 1em;
+  margin-top: 0;
+}
+
+.alert-top78 {
+  top: 78px;
+}
+
+.alert-top118 {
+  top: 118px;
+}
+
+.alert-top158 {
+  top: 158px;
+}
+
+.alert-top198 {
+  top: 198px;
+}
+
+.navLink {
+  display: inline-block;
+  min-width: 60px;
+  color: #555;
+}
+
+.mg-b10 {
+  margin-bottom: 10px;
+}
+
+.create-a {
+  height: 40px;
+  line-height: 26px;
+}
+
+.mg-t13 {
+  margin-top: -13px;
+}
+
+.loginPage .login-input {
+  height: 40px;
+  border-color: #f0f3f4;
+}
+
+.others {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon-eye {
+  position: absolute;
+  left: 270px;
+}
+
+.icon-top215 {
+  top: 215px;
+}
+
+.login-logo {
+  width: 120px;
+  margin-bottom: 30px;
+  margin-left: -12px;
+  margin-top: -30px;
+}

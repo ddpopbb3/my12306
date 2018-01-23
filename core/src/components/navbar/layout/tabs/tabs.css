@@ -1,0 +1,83 @@
+.secondary-navbar-tabs {
+  background-color: #F1F1F1;
+}
+
+.navbar-brand,
+.primary-navbar-tabs li a,
+.secondary-navbar-tabs li a,
+.primary-topbar-navs li a {
+  padding: 8px 10px;
+  height: 32px;
+  font-size: 12px;
+  color: white;
+}
+
+.primary-navbar-tabs li a,
+.secondary-navbar-tabs li a {
+  color: #999;
+}
+
+.primary-navbar-tabs li a:first-of-type,
+.secondary-navbar-tabs li a:first-of-type {
+  margin-left: 20px;
+}
+
+.primary-navbar-tabs li a {
+  padding: 8px 0px;
+  margin: 0px 12px;
+}
+
+.primary-navbar-tabs li a:hover,
+.primary-navbar-tabs li a:active,
+.primary-navbar-tabs li a:focus {
+  background-color: #E8E8E8;
+}
+
+.secondary-navbar-tabs li a:hover,
+.secondary-navbar-tabs li a:active,
+.secondary-navbar-tabs li a:focus {
+  background-color: #F1F1F1;
+}
+
+.secondary-navbar-tabs li a {
+  padding: 8px 0px;
+  margin: 0px 9px;
+}
+
+.secondary-navbar-tabs li a:hover,
+.secondary-navbar-tabs li a:active {
+  background-color: #F1F1F1;
+}
+
+.primary-navbar-tabs .nav-active a,
+.secondary-navbar-tabs .nav-active a {
+  color: #333;
+}
+
+.secondary-navbar-tabs .nav-active a {
+  border-bottom: #323B45 4px solid;
+  border-radius: 0px;
+}
+
+.secondary-navbar-tabs a:hover {
+  color: #333;
+}
+
+.primary-navbar-tabs .nav-active a:after {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  bottom: -3px;
+  left: 50%;
+  margin-left: -4px;
+  transform: rotate(45deg);
+  content: "";
+  background-color: #F1F1F1;
+}
+
+.primary-navbar-tabs {
+  position: fixed;
+  top: 32px;
+  width: 100%;
+  background-color: #E8E8E8;
+}

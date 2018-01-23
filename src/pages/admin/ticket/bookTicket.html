@@ -1,0 +1,25 @@
+</br>
+<div id="js-pass-datagrid">
+<span>选择乘客</span>
+ <div id="pass-info" class="nui-checkboxlist" repeatItems=10 repeatLayout="table" textField="name" valueField="name" value="" onload="onLoad">
+ </div>
+</div>
+
+<div id="js-book-datagrid" class="nui-datagrid" dataField="data" sizeList="[10,20,50,100]" showFilterRow="true" >
+ <div property="columns">
+  <div field="ticketType.trainCode" width="90" headerAlign="left" align="left">车次</div>
+  <div field="ticketType.startCity" width="100" headerAlign="left" align="left">出发站</div>
+  <div field="ticketType.destCity" width="100" headerAlign="left" align="left">到达站</div>
+  <div field="ticketType.startTime" width="100" headerAlign="left" align="left">出发时间 </div>
+  <div field="ticketType.destTime" width="100" headerAlign="left" align="left">到达时间</div>
+  <div field="ticketType.runningTime" width="100" headerAlign="left" align="left">历时</div>
+  <div field="ticketSale.actualAmount2" width="80" headerAlign="left" align="left">余票</div>
+  <div field="ticketType.price" width="120" stytle="display:none" headerAlign="left" align="left">价格</div>
+ </div>
+</div>
+
+<div align="center">
+ <a class="nui-button" onclick="onCommitOrder()">提交订单</a>
+</div>
+
+<script src="/pages/admin/ticket/ticketList.js" scope="page"></script>

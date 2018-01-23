@@ -1,0 +1,22 @@
+{
+    "city": [
+        {
+            "code": "beijing",
+            "name": "北京"
+         },
+        {
+            "code": "xian",
+            "name": "西安"
+        } ,
+        {
+            "code": "guangzhou",
+            "name": "广州"
+        },
+        {
+            "code": "shanghai",
+            "name": "上海"
+        }
+
+    ],
+    "total": 4
+}

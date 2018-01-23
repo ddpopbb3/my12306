@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>deploy plan</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1" transform="translate(-398.000000, -15263.000000)" fill="#46535A">
+            <g id="Group-32" transform="translate(398.000000, 14973.000000)">
+                <g id="Group-28" transform="translate(0.000000, 290.000000)">
+                    <g id="deploy-plan">
+                        <g id="Group">
+                            <path d="M7.68220488,0 L1,0 C0.4,0 0,0.4 0,1 L0,15 C0,15.6 0.4,16 1,16 L13,16 C13.6,16 14,15.6 14,15 L14,10.1973068 C13.3926158,10.5486596 12.7179235,10.7965968 12,10.9170416 L12,14 L2,14 L2,2 L5.80269317,2 C6.26707324,1.19722534 6.91210683,0.512028987 7.68220488,0 Z M5.08295844,4 L4,4 L4,6 L5.08295844,6 C5.0283988,5.67479153 5,5.34071221 5,5 C5,4.65928779 5.0283988,4.32520847 5.08295844,4 Z M5.34141142,7 L4,7 L4,9 L6.52778699,9 C6.01127221,8.42290415 5.60481582,7.74523962 5.34141142,7 Z M7.68220488,10 L4,10 L4,12 L10,12 L10,10.9170416 C9.15429209,10.7751587 8.3685746,10.456359 7.68220488,10 Z" id="Combined-Shape"></path>
+                            <g id="ui-16px-2_time-clock" transform="translate(6.000000, 0.000000)">
+                                <g id="Group">
+                                    <path d="M5,0 C2.25,0 0,2.25 0,5 C0,7.75 2.25,10 5,10 C7.75,10 10,7.75 10,5 C10,2.25 7.75,0 5,0 L5,0 Z M5,8.1875 C3.246875,8.1875 1.8125,6.753125 1.8125,5 C1.8125,3.246875 3.246875,1.8125 5,1.8125 C6.753125,1.8125 8.1875,3.246875 8.1875,5 C8.1875,6.753125 6.753125,8.1875 5,8.1875 L5,8.1875 Z" id="Shape"></path>
+                                    <path d="M5.625,2.5 L4.375,2.5 L4.375,5.625 L7.5,5.625 L7.5,4.375 L5.625,4.375 L5.625,2.5 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

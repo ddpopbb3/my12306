@@ -1,0 +1,9 @@
+#js-chart-line,
+#js-chart-bar,
+#js-chart-pie,
+#js-chart-radar,
+#js-chart-china,
+#js-chart-dashboard {
+  width: 600px;
+  height: 400px;
+}

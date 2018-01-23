@@ -1,0 +1,290 @@
+.primary-navbar-tree {
+  position: fixed;
+  top: 40px;
+  left: 0px;
+  bottom: 0px;
+  width: 180px;
+  background-color: #eee;
+  font-size: 12px;
+  color: #666;
+  overflow-y: auto;
+}
+
+.navbar-tree-body {
+  position: relative;
+}
+
+.primary-layout-tree .primary-content,
+.primary-layout-tree .secondary-content {
+  position: fixed;
+  top: 40px;
+  left: 180px;
+  bottom: 0px;
+  right: 0px;
+  background-color: white;
+  box-shadow: 0px 0px 1px #ddd;
+  overflow-y: auto;
+}
+
+
+/** navbar tree commons starts**/
+
+.navbar-tree-ul {
+  padding-left: 0px;
+  padding-right: 0px;
+  opacity: 0;
+  list-style: none;
+}
+
+.navbar-tree-li a {
+  display: block;
+  width: 100%;
+  line-height: 32px;
+  height: 32px;
+  padding-left: 5px;
+  cursor: pointer;
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navbar-tree-li a:hover {
+  font-weight: 600;
+  text-decoration: none;
+  color: #3DA7FF;
+}
+
+.navbar-tree-li-selected {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-weight: 600;
+  /*box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);*/
+  background-color: #F5F5F5;
+}
+
+.navbar-tree-li-selected > a {
+  color: #3DA7FF;
+}
+
+
+/** navbar tree commons ends **/
+
+
+/** first layer menu styles starts **/
+
+.navbar-tree-body > .navbar-tree-ul > .navbar-tree-li {
+  margin-bottom: 5px;
+}
+
+.navbar-tree-body > .navbar-tree-ul > .navbar-tree-li > a {
+  height: 34px;
+}
+
+.navbar-tree-new > .navbar-tree-ul,
+.navbar-tree-body > .navbar-tree-ul,
+.navbar-tree-li-expanded > .navbar-tree-ul {
+  /*margin-top: 5px;*/
+  opacity: 1;
+  overflow: visible;
+}
+
+.navbar-tree-new .navbar-tree-new-label {
+  padding-left: 4px;
+}
+
+.navbar-tree-new-text {
+  padding-left: 4px;
+}
+
+.navbar-tree-li-collapsed > .navbar-tree-ul {
+  overflow: hidden;
+}
+
+
+/** first layer menu styles ends **/
+
+
+/** second layer menu styles starts **/
+
+.navbar-tree-ul .navbar-tree-ul .navbar-tree-li {
+  transition: height 0.3s linear;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navbar-tree-ul .navbar-tree-ul .navbar-tree-li a {
+  padding-left: 10px;
+}
+
+
+/** second layer menu styles ends **/
+
+
+/** tree expand/collapse animation starts**/
+
+.navbar-tree-li-expanded > .navbar-tree-ul > .navbar-tree-li {
+  height: 32px;
+}
+
+.navbar-tree-li-collapsed > .navbar-tree-ul > .navbar-tree-li {
+  height: 0px;
+}
+
+.navbar-tree-body .navbar-tree-li.navbar-tree-li-expanded {
+  height: auto;
+}
+
+
+/** tree expand/collapse animation ends**/
+
+.navbar-tree-li-img {
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.navbar-tree-li-expanded > a:after {
+  float: right;
+  margin-right: 5px;
+  content: url(/core/assets/images/nav/collapse_item.svg);
+}
+
+.navbar-tree-li-collapsed > a:after {
+  float: right;
+  margin-right: 5px;
+  content: url(/core/assets/images/nav/expand_item.svg);
+}
+
+
+/** tree icon starts **/
+
+.navbar-tree-icon {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-tree-icon img {
+  margin: 10px 9px 15px 10px;
+}
+
+.navbar-tree-icon span {
+  display: inline-block;
+  width: 80px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+/** tree icon ends **/
+
+
+/** css when navbar is collapsed starts **/
+
+.primary-navbar-collapsed.primary-layout-tree .primary-content,
+.primary-navbar-collapsed.primary-layout-tree .secondary-content {
+  left: 60px;
+}
+
+.primary-navbar-collapsed .navbar-tree-ul {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.primary-navbar-collapsed .navbar-tree-li-img {
+  width: 20px;
+  height: 20px;
+}
+
+.primary-navbar-collapsed .navbar-tree-li-expanded > a:after,
+.primary-navbar-collapsed .navbar-tree-li-collapsed > a:after {
+  display: none;
+}
+
+.primary-navbar-collapsed .navbar-tree-ul .navbar-tree-ul .navbar-tree-li a {
+  padding-left: 5px;
+}
+
+.navbar-tree-icon-noText,
+.primary-navbar-collapsed .navbar-tree-icon,
+.primary-navbar-collapsed .navbar-tree-new-label {
+  text-align: center;
+}
+
+.navbar-tree-icon-noText span,
+.primary-navbar-collapsed .navbar-tree-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-tree-icon-noText span,
+.primary-navbar-collapsed .navbar-tree-new-text,
+.primary-navbar-collapsed .navbar-tree-icon span {
+  display: none;
+}
+
+.primary-navbar-collapsed .primary-navbar-tree {
+  width: 60px;
+}
+
+.primary-navbar-collapsed .primary-navbar-tree .navbar-tree-ul span {
+  display: none;
+}
+
+.navbar-tree-icon-noText img {
+  width: 60px;
+  height: 60px;
+}
+
+
+/** css when navbar is collapsed ends **/
+
+
+/** footer starts **/
+
+.navbar-tree-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.navbar-tree-footer span {
+  display: inline-block;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.navbar-tree-expand-btn {
+  background: url(/core/assets/images/nav/expand.svg) no-repeat;
+}
+
+.navbar-tree-collapse-btn {
+  background: url(/core/assets/images/nav/collapse.svg) no-repeat;
+}
+
+
+/** footer ends **/
+
+
+/** customized navbar **/
+
+.primary-navbar-collapsed.primary-navbar-customized .primary-navbar-tree {
+  width: 30px;
+}
+
+.primary-navbar-collapsed.primary-navbar-customized.primary-layout-tree .primary-content,
+.primary-navbar-collapsed.primary-navbar-customized.primary-layout-tree .secondary-content {
+  left: 30px;
+}
+
+.primary-navbar-collapsed.primary-navbar-customized .navbar-tree-icon,
+.primary-navbar-collapsed.primary-navbar-customized .navbar-tree-body {
+  display: none;
+}
+
+
+/** customized navbar ends **/

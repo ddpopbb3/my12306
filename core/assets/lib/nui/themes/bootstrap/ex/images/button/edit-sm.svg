@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>design-16px_pen-01</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="48部署组件变量" transform="translate(-422.000000, -256.000000)" fill="#46535A">
+            <g id="Table-head-options" transform="translate(0.000000, 189.000000)">
+                <g id="table-white">
+                    <g id="tbody-copy" transform="translate(0.000000, 60.000000)">
+                        <g id="td-copy-2" transform="translate(409.000000, 0.000000)">
+                            <g id="design-16px_pen-01" transform="translate(13.000000, 7.000000)">
+                                <g id="Group">
+                                    <path d="M8.1,3.5 L0.3,11.3 C0.1,11.5 0,11.7 0,12 L0,15 C0,15.6 0.4,16 1,16 L4,16 C4.3,16 4.5,15.9 4.7,15.7 L12.5,7.9 L8.1,3.5 L8.1,3.5 Z" id="Shape"></path>
+                                    <path d="M15.7,3.3 L12.7,0.3 C12.3,-0.1 11.7,-0.1 11.3,0.3 L9.5,2.1 L13.9,6.5 L15.7,4.7 C16.1,4.3 16.1,3.7 15.7,3.3 L15.7,3.3 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
