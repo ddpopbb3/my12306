@@ -168,6 +168,7 @@ function openPay(){
             allowResize: false,
             showModal: Boolean,
             onload: function() {
+                $("#realOrderDetailId").val(orderInfo.orderDetail.orderDetailId);
                 var gridtemp = nui.get("js-order-datagrid");
                 var pageInfo = gridtemp.getRow(0);
                 nuiWin.close();
@@ -200,8 +201,9 @@ function onPay() {
     var code = ($("input[name=code]").val());
     var accountInfo = gridpay.getSelected();
     if (accountInfo) {
+        var realOrderDetailId = $("#realOrderDetailId").val();
         nui.ajax({
-            url: "/pay/draw/"+accountInfo.accountId+"/"+num[0],
+            url: "/coordinator/pay/"+accountInfo.accountId+"/"+num[0]+"/"+realOrderDetailId,
             type: "POST",
             async:'false',
             contentType: 'application/json',
@@ -268,6 +270,11 @@ function onPay() {
                         })
                     }
 
+                } else if(res == "2"){
+                    nui.alert("支付失败，此订单取消！", "提示", function(){
+                        nuiWin.close();
+                        onSearchTicket();
+                    });
                 }else {
                     nui.alert("余额不足，请选择其他账号！");
                 }

@@ -29,18 +29,24 @@
         var username = $("input[name=uid]").val();
         var password = $("input[name=password ]").val();
         nui.ajax({   
-            url: "/user/login"+"/"+username+"/"+password,
+            url: "/uaa/user/login",
             method: "post",
-            contentType: 'application/json',
+            data: {
+              "username":username,
+              "password":password
+            },
             success: function(res){
-            	if(res != null && res != ""){
-                  window.localStorage.userId = res;
-                  window.location.assign(location.origin+"/admin/booktickets");
+            	if(res){
+                  window.localStorage.userId = res.id;
+                  window.localStorage.userRole = res.roles;
+                  window.localStorage.token = res.token;
                   window.localStorage.userUid = username;
-                }else{
-                  $("#error").text('用户名或密码错误');
+                  window.location.assign(location.origin+"/admin/booktickets");
                 }
-                }
+            },
+            error: function(error) {
+              $("#error").text('用户名或密码错误');
+            }
             });
     }
   </script>

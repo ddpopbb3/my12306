@@ -18,7 +18,6 @@ function init(data, nuiComp) {
 
 
 function onSearchOrder() {
-    debugger;
 
     //清空数据
     $("#js-record").html("");
@@ -78,7 +77,6 @@ function onSearchOrder() {
 }
 
 function change(event) {
-    debugger;
     var orderId = event.target.id;
     var currentGird = nui.get("js-order-datagrid" + orderId);
     var selectedRow = currentGird.getSelected();
@@ -120,7 +118,6 @@ function change(event) {
 
 
 function refund() {
-    debugger;
     var orderId = event.target.id;
     var currentGird = nui.get("js-order-datagrid" + orderId);
     var row = currentGird.getSelected();

@@ -21,6 +21,19 @@
   <script type="text/javascript" src="/core/assets/lib/euler-ui/jquery-bootstrap-form.js"></script>
 </head>
 
+<script>
+  $.ajaxSetup({
+    beforeSend: function (xhr, options) {
+      xhr.setRequestHeader('Authorization', 'Bearer ' + window.localStorage.token);
+    }
+  });
+  $(document).ajaxError(function(event, jqxhr, settings, thrownError) {
+    if (jqxhr.status === 401) {
+      window.location.href = "/login";
+    }
+  });
+</script>
+
 <body>
   <div id="content"></div>
   <script type="text/javascript" src="/bundle.js"></script>
