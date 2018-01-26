@@ -5,7 +5,7 @@
   "scripts": {
     "start": "babel-node core/scripts/client.js",
     "server": "nodemon server/index.js -w server/",
-    "prod": "node core/scripts/prod.js",
+    "prod": "node ./core/scripts/prod.js",
     "start:prod": "node core/scripts/startProduct.js"
   },
   "babel": {
@@ -58,7 +58,8 @@
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0",
     "winston": "^2.2.0",
-    "yargs": "^6.2.0"
+    "yargs": "^6.2.0",
+    "jquery": "1.12.4"
   },
   "optionalDependencies": {
     "fsevents": "*"

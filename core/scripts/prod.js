@@ -3,7 +3,7 @@ const shell = require("shelljs");
 const path = require("path").posix;
 const logger = require("./logger");
 
-const devServerSettings = require("../../configs/dev.server.js");
+// const devServerSettings = require("../../configs/dev.server.js");
 const pagesConf = require("../../configs/pages.config.prod.js");
 // const appName = pagesConf && pagesConf.app;
 

@@ -271,7 +271,7 @@ function onPay() {
                     }
 
                 } else if(res == "2"){
-                    nui.alert("支付失败，此订单取消！", "提示", function(){
+                    nui.alert("支付失败，此订单作废！", "提示", function(){
                         nuiWin.close();
                         onSearchTicket();
                     });
